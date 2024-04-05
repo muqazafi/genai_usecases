@@ -5,7 +5,7 @@ from upload_s3 import get_file
 from adschatsum import adssum
 from adschatcontent import adscontent
 from upload_txt import get_file_txt
-
+from QA import letschat
 
 # Set the title of the app
 #st.set_page_config(page_title="Enhanace Search using AWS Bedrock")
@@ -15,7 +15,7 @@ from upload_txt import get_file_txt
 def option1():
     st.title("Chat with your Document")
     get_file()
-
+    letschat()
 def option2():
     st.title("Content Generation")
     get_file_txt()
