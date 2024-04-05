@@ -16,6 +16,7 @@ def option1():
     st.title("Chat with your Document")
     get_file()
     letschat()
+
 def option2():
     st.title("Content Generation")
     get_file_txt()
