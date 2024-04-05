@@ -14,7 +14,7 @@ def upload_to_s3(file, bucket_name):
         s3.upload_fileobj(file, bucket_name, object_name)
         st.success(f"File '{object_name}' successfully uploaded ")
 #        if st.button("Lets Chat"):
-        letschat()
+#        letschat()
     except Exception as e:
         st.error(f"Error uploading file: {e}")
 
